@@ -1,1 +1,4 @@
 .idea
+.cache
+.media
+changes

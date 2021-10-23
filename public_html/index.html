@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Internet History</title>
@@ -14,8 +14,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">HomePage</a>
+<div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -43,26 +43,91 @@
         </ul>
     </div>
 </nav>
+</div>
 <div class="container-fluid">
     <div class="row max-height justify-content-center align-items-center">
         <div class="col-10 mx-auto banner text-center">
             <h1 class="text-capitalize">
-                History of <strong class="banner-title">Internet</strong>
+                <h1>History Of Internet</h1>
+                <p>
+                    The Internet, a loosely-organized international collaboration of autonomous, interconnected networks,
+                    supports host-to-host communication through voluntary adherence to open protocols and procedures
+                    defined by Internet Standards
+                </p>
             </h1>
-            <a href="#store" class="text-uppercase my-2">explore</a>
+            <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+        </div>
+</div>
+</div>
+
+
+
+<div class="container-fluid py-5 mx-2">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+                <img src="./images/card1.jpg" class="card-img-top" alt="card1">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold">Internet</h5>
+                    <p class="card-text">The Internet has revolutionized the computer and communications world like nothing before. The invention of the telegraph, telephone, radio,
+                        and computer set the stage for this unprecedented integration of capabilities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+                <img src="./images/card2.jpeg" class="card-img-top" alt="card2">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold">Browser</h5>
+                    <p class="card-text">1990 – The WorldWideWeb (not to be confused with the World Wide Web) was the first browser ever created by W3C Director Tim Berners-Lee,
+                        then renamed Nexus to differentiate from the actual World Wide Web.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+                <img src="./images/yahoo.jpg" class="card-img-top" alt="yahoo">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-weight: bold">Search Engine</h5>
+                    <p class="card-text">Beginning with Archie in 1990, considered the first search engine, moving on to Excite and Infoseek, by the mid 90s there was a veritable flood of search engines,
+                        particularly after Google showed how it should be done in 1996.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+<!-- Remove the container if you want to extend the Footer to full width. -->
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4">Java</div>
-        <div class="col-md-4 col-sm-4 col-xs-4">PHP</div>
-        <div class="col-md-4 col-sm-4 col-xs-4">JQuery</div>
-    </div>
-</div>
 
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>Name: Bhirahaspathi sairam</p>
+                    <p>Email: bs548@njit.edu</p>
+                </div>
+                <div class="col-lg-6">
+                    <p>Name: Rajesh Gnanasekaran</p>
+                    <p>Email: rg48@gmail.com</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">History of Internet</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
 
 </div>
+<!-- End of .container -->
+
 </body>
 </html>

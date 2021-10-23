@@ -1,16 +1,36 @@
+.banner h1{
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: -4rem;
+}
+
+.banner p{
+    font-size: 16px;
+    font-weight: 300;
+    word-spacing: 2px;
+}
+.banner-title {
+    color: #ef7998;
+    font-size: 64px;
+    font-size: 4rem;
+}
+.banner-link {
+
+}
+.banner-link:hover {
+    background: #000;
+    color: #ef7998;
+}
 .max-height{
-    min-height: 90vh;
-    background-image: url("../images/hero.jpg");
+    min-height: 100vh;
+    background-image: url("../images/browser-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.banner {
-    color: #fff;
-    margin-top: -64px;
-    margin-top: -4rem;
-}
-.banner-title {
-    color: white;
-    font-size: 64px;
-    font-size: 4rem;
+
+.card img{
+    width: 100%;
 }

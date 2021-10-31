@@ -1,8 +1,4 @@
-.ball {
-    position: fixed;
-    border-radius: 100%;
-    opacity: 0.7;
-}
+
 
 body {
     background: linear-gradient(-45deg, #c7ee52, #3c53e7, #e0467c, #23d5ab);
@@ -13,17 +9,24 @@ body {
 
 @keyframes gradient {
     0% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
     50% {
         background-position: 100% 50%;
     }
     100% {
-        background-position: 0% 50%;
+        background-position: 0 50%;
     }
 }
 
 .title{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
 }

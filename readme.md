@@ -9,7 +9,7 @@ Rajesh Gnanasekaran
 
 3 pages done by each team member
 
-Pages done by Bhirahaspathi sairam 
+Pages done by Bhirahaspathi sairam
 Index.html
 Evolution.html
 majorEvents.html
@@ -19,4 +19,4 @@ Web.html
 software.html
 1996.html
 
-Sairam Rajesh
+changes made in my git

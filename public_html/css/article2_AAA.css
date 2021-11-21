@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(-45deg, #0a548f, #38a67c, #69d1f6, #eabe49);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+}

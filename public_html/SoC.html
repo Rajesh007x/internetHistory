@@ -80,15 +80,13 @@
               The principle is simple: We should not write our program as one solid block, instead, break up the code into chunks that are finalized tiny pieces of the system each able to complete a simple distinct job.<br>
             </p>
             <div class="alert alert-danger" role="alert">
-            <p>
               >> Please select below buttons to get more info about each testing pattern.
               </div>
               <br>
               <a class="btn btn-info btn-lg btn-block" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                  SoC for programming funtions
               </a>
-
-            </p>
+              <br>
             <div class="collapse" id="collapseExample" >
               <div class="card card-body bg-dark text-white">
                 If we take the lowest level (the actual programming code), SoC instructs us to avoid writing long complex functions. When the function starts to bloat up in size, this is the red flag that the method is possibly taking care of too many things at once.
@@ -96,7 +94,7 @@
                 parts of the original algorithm get exported and encapsulated in separate smaller functions with a private access level. We gain the code clarity, and chunks of the algorithm eventually become reusable by other parts, even if we initially didn’t expect this to happen.
               </div>
               <div class="text-center mb-4">
-                <img src="images/refactor.png" alt="ch" width="400px"/>
+                <img src="images/refactor.png" alt="ch"/>
               </div>
               <div class="card card-body bg-dark text-white">
                 In the above calculator data if you see , we have done Refactoring where we had more lines of code and we simplified the codes and saved it into
@@ -115,7 +113,7 @@
                 Every existing architectural pattern provides this strategy. Take we, for example, the Model-View-Controller, we would see that the View is not allowed to interact with the Model directly and should use the Controller as the intermediary.
               </div>
               <div class="text-center mb-4">
-                <img src="images/chart.png" alt="ch" width="400px"/>
+                <img src="images/chart.png" alt="ch"/>
               </div>
             </div>
             <br>
@@ -128,7 +126,7 @@
                 The process very much resembles what we had to do for functions: estrange less-closely related functionality and group up the features serving the same distinct purpose.
               </div>
               <div class="text-center mb-4">
-                <img src="images/grp.png" alt="ch" width="400px"/>
+                <img src="images/grp.png" alt="ch"/>
               </div>
               <div class="card card-body bg-dark text-white">
                 In our Calculator as you can see on the left side , we have grouped all our calculator calculation functions together in one module (i.e Calculations )
@@ -138,7 +136,7 @@
               <br><br>
 
             <h5 class="mt-0"> Two types of Separation :</h5>
-            <div id="accordion ">
+            <div id="accordion">
               <div class="card bg-dark text-white">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">

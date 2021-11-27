@@ -1,4 +1,4 @@
-## Internet History.
+## Internet History and Python Articles
 
 The below link also consist of updated articles for python
 added in the webpage :-

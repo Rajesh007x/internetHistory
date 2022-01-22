@@ -25,9 +25,13 @@ function settimer()
     if(remain < 0)
     {
       clearInterval(timer);
-      document.getElementById("timer_value").innerHTML = 'Reached!';
+      document.getElementById("timer_value").innerHTML = 'Completed !!!';
       return;
     }
+    // if(remain == 0)
+    // {
+    //   document.getElementById("timer_value").innerHTML = "Complete !!";
+    // }
     var days = Math.floor(remain / day); // Get Remaining Days
     var hours = Math.floor((remain % day) / hour); // Get Remaining Hours
     var minutes = Math.floor((remain % hour) / minute); // Get Remaining Min
